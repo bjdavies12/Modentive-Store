@@ -1,0 +1,922 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Modentive.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Modentive Limited/checkout</title>
+</head>
+
+<body>
+
+  <div class="search-form" id="search-form">
+    <form action="">
+      <input type="search" class="form-control" placeholder="Enter keyword to search...">
+      <button class="button">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+          <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+        </svg>
+      </button>
+      <button class="button">
+        <div class="close-search">
+          <span class="icofont-close js-close-search"></span>
+        </div>
+      </button>
+
+    </form>
+  </div>
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+
+
+  <nav class="site-nav mb-5">
+    <div class="sticky-nav js-sticky-header">
+
+      <div class="container position-relative">
+        <div class="site-navigation text-center dark">
+          <a href="index.html" class="logo menu-absolute m-0">Modentive Store<span class="text-primary">.</span></a>
+
+          <ul class="js-clone-nav pl-0 d-none d-lg-inline-block site-menu">
+            <li class="active"><a href="shop.html">Home</a></li>
+            <li class="has-children">
+              <a href="shop.html">Products</a>
+            </li>
+            <li class="has-children">
+              <a href="about.html">About Us</a>
+              </li>
+            
+            <li class="has-children">
+              <a href="contact.html">Contact Us</a>
+            </li>
+            
+          </ul>
+
+
+
+
+
+          <div class="menu-icons">
+
+            <a href="#" class="btn-custom-search" id="btn-search">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+              </svg>
+            </a>
+
+            <a href="#" class="user-profile">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              </svg>
+            </a>
+
+            <a href="cart.html" class="cart">
+              <span class="item-in-cart">0</span>
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+            </a>
+
+          </div>
+
+          <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="page-heading bg-light">
+    <div class="container">
+      <div class="row align-items-end text-center">
+        <div class="col-lg-7 mx-auto">
+          <h1>Checkout</h1>  
+                  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <div class="border p-4 rounded" role="alert">
+            Returning customer? <a href="#">Click here</a> to login
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-5 mb-md-0">
+          <h2 class="h3 mb-3 text-black">Billing Details</h2>
+          <div class="p-3 p-lg-5 border">
+            <div class="form-group">
+              <label for="c_country" class="text-black">Country <span class="text-danger">*</span></label>
+              <select id="c_country" class="form-control">
+                <option value="1">Select a country</option>
+                <option value="2">Afghanistan</option>
+                <option value="3">Albania</option>
+                <option value="4">Algeria</option>
+                <option value="5">Andorra</option>
+                <option value="6">Angola</option>
+                <option value="7">Antigua and Barbuda</option>
+                <option value="8">Argentina</option>
+                <option value="9">Armenia</option>
+                <option value="10">Australia</option>
+                <option value="11">Austria</option>
+                <option value="12">Azerbaijan</option>
+                <option value="13">Bahamas</option>
+<option value="14">Bahrain</option>
+<option value="15">Bangladesh</option>
+<option value="16">Barbados</option>
+<option value="17">Belarus</option>
+<option value="18">Belgium</option>
+<option value="19">Belize</option>
+<option value="20">Benin</option>
+<option value="21">Bhutan</option>
+<option value="22">Bolivia</option>
+<option value="23">Bosnia and Herzegovina</option>
+<option value="24">Botswana</option>
+<option value="25">Brazil</option>
+<option value="26">Brunei</option>
+<option value="27">Bulgaria</option>
+<option value="28">Burkina Faso</option>
+<option value="29">Burundi</option>
+<option value="30">Côte d'Ivoire</option>
+<option value="31">Cabo Verde</option>
+<option value="32">Cambodia</option>
+<option value="33">Cameroon</option>
+<option value="34">Canada</option>
+<option value="35">Central African Republic</option>
+<option value="36">Chad</option>
+<option value="37">Chile</option>
+<option value="38">China</option>
+<option value="39">Colombia</option>
+<option value="40">Comoros</option>
+<option value="41">Congo (Congo-Brazzaville)</option>
+<option value="42">Costa Rica</option>
+<option value="43">Croatia</option>
+<option value="44">Cuba</option>
+<option value="45">Cyprus</option>
+<option value="46">Czechia (Czech Republic)</option>
+<option value="47">Democratic Republic of Congo</option>
+<option value="48">Denmark</option>
+<option value="49">Djibouti</option>
+<option value="50">Dominica</option>
+<option value="51">Dominican Republic</option>
+<option value="52">Ecuador</option>
+<option value="53">Egypt</option>
+<option value="54">El Salvador</option>
+<option value="55">Equatorial Guinea</option>
+<option value="56">Eritrea</option>
+<option value="57">Estonia</option>
+<option value="58">Eswatini</option>
+<option value="59">Ethiopia</option>
+<option value="60">Fiji</option>
+<option value="61">Finland</option>
+<option value="62">France</option>
+<option value="63">Gabon</option>
+<option value="64">Gambia</option>
+<option value="65">Georgia</option>
+<option value="66">Germany</option>
+<option value="67">Ghana</option>
+<option value="68">Greece</option>
+<option value="69">Grenada</option>
+<option value="70">Guatemala</option>
+<option value="71">Guinea</option>
+<option value="72">Guinea-Bissau</option>
+<option value="73">Guyana</option>
+<option value="74">Haiti</option>
+<option value="75">Holy See (Vatican City)</option>
+<option value="76">Honduras</option>
+<option value="77">Hungary</option>
+<option value="78">Iceland</option>
+<option value="79">India</option>
+<option value="80">Indonesia</option>
+<option value="81">Iran</option>
+<option value="82">Iraq</option>
+<option value="83">Ireland</option>
+<option value="84">Israel</option>
+<option value="85">Italy</option>
+<option value="86">Jamaica</option>
+<option value="87">Japan</option>
+<option value="88">Jordan</option>
+<option value="89">Kazakhstan</option>
+<option value="90">Kenya</option>
+<option value="91">Kiribati</option>
+<option value="92">Kuwait</option>
+<option value="93">Kyrgyzstan</option>
+<option value="94">Laos</option>
+<option value="95">Latvia</option>
+<option value="96">Lebanon</option>
+<option value="97">Lesotho</option>
+<option value="98">Libya</option>
+<option value="99">Liechtenstein</option>
+<option value="100">Lithuania</option>
+<option value="101">Luxembourg</option>
+<option value="102">Madagascar</option>
+<option value="103">Malawi</option>
+<option value="104">Malaysia</option>
+<option value="105">Maldives</option>
+<option value="106">Mali</option>
+<option value="107">Malta</option>
+<option value="108">Marshall Islands</option>
+<option value="109">Mauritania</option>
+<option value="110">Mauritius</option>
+<option value="111">Mexico</option>
+<option value="112">Micronesia</option>
+<option value="113">Moldova</option>
+<option value="114">Monaco</option>
+<option value="115">Mongolia</option>
+<option value="116">Montenegro</option>
+<option value="117">Morocco</option>
+<option value="118">Mozambique</option>
+<option value="119">Myanmar</option>
+<option value="120">Namibia</option>
+<option value="121">Nauru</option>
+<option value="122">Nepal</option>
+<option value="123">Netherlands</option>
+<option value="124">New Zealand</option>
+<option value="125">Nicaragua</option>
+<option value="126">Niger</option>
+<option value="127">Nigeria</option>
+<option value="128">North Korea</option>
+<option value="129">North Macedonia</option>
+<option value="130">Norway</option>
+<option value="131">Oman</option>
+<option value="132">Pakistan</option>
+<option value="133">Palau</option>
+<option value="134">Palestine State</option>
+<option value="135">Panama</option>
+<option value="136">Papua New Guinea</option>
+<option value="137">Paraguay</option>
+<option value="138">Peru</option>
+<option value="139">Philippines</option>
+<option value="140">Poland</option>
+<option value="141">Portugal</option>
+<option value="142">Qatar</option>
+<option value="143">Romania</option>
+<option value="144">Russia</option>
+<option value="145">Rwanda</option>
+<option value="146">Saint Kitts and Nevis</option>
+<option value="147">Saint Lucia</option>
+<option value="148">Saint Vincent and the Grenadines</option>
+<option value="149">Samoa</option>
+<option value="150">San Marino</option>
+<option value="151">Sao Tome and Principe</option>
+<option value="152">Saudi Arabia</option>
+<option value="153">Senegal</option>
+<option value="154">Serbia</option>
+<option value="155">Seychelles</option>
+<option value="156">Sierra Leone</option>
+<option value="157">Singapore</option>
+<option value="158">Slovakia</option>
+<option value="159">Slovenia</option>
+<option value="160">Solomon Islands</option>
+<option value="161">Somalia</option>
+<option value="162">South Africa</option>
+<option value="163">South Korea</option>
+<option value="164">South Sudan</option>
+<option value="165">Spain</option>
+<option value="166">Sri Lanka</option>
+<option value="167">Sudan</option>
+<option value="168">Suriname</option>
+<option value="169">Sweden</option>
+<option value="170">Switzerland</option>
+<option value="171">Syria</option>
+<option value="172">Taiwan</option>
+<option value="173">Tajikistan</option>
+<option value="174">Tanzania</option>
+<option value="175">Thailand</option>
+<option value="176">Timor-Leste</option>
+<option value="177">Togo</option>
+<option value="178">Tonga</option>
+<option value="179">Trinidad and Tobago</option>
+<option value="180">Tunisia</option>
+<option value="181">Turkey</option>
+<option value="182">Turkmenistan</option>
+<option value="183">Tuvalu</option>
+<option value="184">Uganda</option>
+<option value="185">Ukraine</option>
+<option value="186">United Arab Emirates</option>
+<option value="187">United Kingdom</option>
+<option value="188">United States of America</option>
+<option value="189">Uruguay</option>
+<option value="190">Uzbekistan</option>
+<option value="191">Vanuatu</option>
+<option value="192">Venezuela</option>
+<option value="193">Vietnam</option>
+<option value="194">Yemen</option>
+<option value="195">Zambia</option>
+<option value="196">Zimbabwe</option>
+</select>
+
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="c_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_fname" name="c_fname">
+              </div>
+              <div class="col-md-6">
+                <label for="c_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_lname" name="c_lname">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-12">
+                <label for="c_companyname" class="text-black">Company Name </label>
+                <input type="text" class="form-control" id="c_companyname" name="c_companyname">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-12">
+                <label for="c_address" class="text-black">Address <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Street address">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="c_state_country" class="text-black">State / Country <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_state_country" name="c_state_country">
+              </div>
+              <div class="col-md-6">
+                <label for="c_postal_zip" class="text-black">Postal / Zip <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip">
+              </div>
+            </div>
+
+            <div class="form-group row mb-5">
+              <div class="col-md-6">
+                <label for="c_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_email_address" name="c_email_address">
+              </div>
+              <div class="col-md-6">
+                <label for="c_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Phone Number">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="c_create_account" class="text-black" data-toggle="collapse" href="#create_an_account" role="button" aria-expanded="false" aria-controls="create_an_account"><input type="checkbox" value="1" id="c_create_account"> Create an account?</label>
+              <div class="collapse" id="create_an_account">
+                <div class="py-2">
+                  <p class="mb-3">Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+                  <div class="form-group">
+                    <label for="c_account_password" class="text-black">Account Password</label>
+                    <input type="email" class="form-control" id="c_account_password" name="c_account_password" placeholder="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="c_ship_different_address" class="text-black" data-toggle="collapse" href="#ship_different_address" role="button" aria-expanded="false" aria-controls="ship_different_address"><input type="checkbox" value="1" id="c_ship_different_address"> Ship To A Different Address?</label>
+              <div class="collapse" id="ship_different_address">
+                <div class="py-2">
+
+                  <div class="form-group">
+                    <label for="c_diff_country" class="text-black">Country <span class="text-danger">*</span></label>
+                    <select id="c_diff_country" class="form-control">
+                      <option value="1">Select a country</option>
+                <option value="2">Afghanistan</option>
+                <option value="3">Albania</option>
+                <option value="4">Algeria</option>
+                <option value="5">Andorra</option>
+                <option value="6">Angola</option>
+                <option value="7">Antigua and Barbuda</option>
+                <option value="8">Argentina</option>
+                <option value="9">Armenia</option>
+                <option value="10">Australia</option>
+                <option value="11">Austria</option>
+                <option value="12">Azerbaijan</option>
+                <option value="13">Bahamas</option>
+<option value="14">Bahrain</option>
+<option value="15">Bangladesh</option>
+<option value="16">Barbados</option>
+<option value="17">Belarus</option>
+<option value="18">Belgium</option>
+<option value="19">Belize</option>
+<option value="20">Benin</option>
+<option value="21">Bhutan</option>
+<option value="22">Bolivia</option>
+<option value="23">Bosnia and Herzegovina</option>
+<option value="24">Botswana</option>
+<option value="25">Brazil</option>
+<option value="26">Brunei</option>
+<option value="27">Bulgaria</option>
+<option value="28">Burkina Faso</option>
+<option value="29">Burundi</option>
+<option value="30">Côte d'Ivoire</option>
+<option value="31">Cabo Verde</option>
+<option value="32">Cambodia</option>
+<option value="33">Cameroon</option>
+<option value="34">Canada</option>
+<option value="35">Central African Republic</option>
+<option value="36">Chad</option>
+<option value="37">Chile</option>
+<option value="38">China</option>
+<option value="39">Colombia</option>
+<option value="40">Comoros</option>
+<option value="41">Congo (Congo-Brazzaville)</option>
+<option value="42">Costa Rica</option>
+<option value="43">Croatia</option>
+<option value="44">Cuba</option>
+<option value="45">Cyprus</option>
+<option value="46">Czechia (Czech Republic)</option>
+<option value="47">Democratic Republic of Congo</option>
+<option value="48">Denmark</option>
+<option value="49">Djibouti</option>
+<option value="50">Dominica</option>
+<option value="51">Dominican Republic</option>
+<option value="52">Ecuador</option>
+<option value="53">Egypt</option>
+<option value="54">El Salvador</option>
+<option value="55">Equatorial Guinea</option>
+<option value="56">Eritrea</option>
+<option value="57">Estonia</option>
+<option value="58">Eswatini</option>
+<option value="59">Ethiopia</option>
+<option value="60">Fiji</option>
+<option value="61">Finland</option>
+<option value="62">France</option>
+<option value="63">Gabon</option>
+<option value="64">Gambia</option>
+<option value="65">Georgia</option>
+<option value="66">Germany</option>
+<option value="67">Ghana</option>
+<option value="68">Greece</option>
+<option value="69">Grenada</option>
+<option value="70">Guatemala</option>
+<option value="71">Guinea</option>
+<option value="72">Guinea-Bissau</option>
+<option value="73">Guyana</option>
+<option value="74">Haiti</option>
+<option value="75">Holy See (Vatican City)</option>
+<option value="76">Honduras</option>
+<option value="77">Hungary</option>
+<option value="78">Iceland</option>
+<option value="79">India</option>
+<option value="80">Indonesia</option>
+<option value="81">Iran</option>
+<option value="82">Iraq</option>
+<option value="83">Ireland</option>
+<option value="84">Israel</option>
+<option value="85">Italy</option>
+<option value="86">Jamaica</option>
+<option value="87">Japan</option>
+<option value="88">Jordan</option>
+<option value="89">Kazakhstan</option>
+<option value="90">Kenya</option>
+<option value="91">Kiribati</option>
+<option value="92">Kuwait</option>
+<option value="93">Kyrgyzstan</option>
+<option value="94">Laos</option>
+<option value="95">Latvia</option>
+<option value="96">Lebanon</option>
+<option value="97">Lesotho</option>
+<option value="98">Libya</option>
+<option value="99">Liechtenstein</option>
+<option value="100">Lithuania</option>
+<option value="101">Luxembourg</option>
+<option value="102">Madagascar</option>
+<option value="103">Malawi</option>
+<option value="104">Malaysia</option>
+<option value="105">Maldives</option>
+<option value="106">Mali</option>
+<option value="107">Malta</option>
+<option value="108">Marshall Islands</option>
+<option value="109">Mauritania</option>
+<option value="110">Mauritius</option>
+<option value="111">Mexico</option>
+<option value="112">Micronesia</option>
+<option value="113">Moldova</option>
+<option value="114">Monaco</option>
+<option value="115">Mongolia</option>
+<option value="116">Montenegro</option>
+<option value="117">Morocco</option>
+<option value="118">Mozambique</option>
+<option value="119">Myanmar</option>
+<option value="120">Namibia</option>
+<option value="121">Nauru</option>
+<option value="122">Nepal</option>
+<option value="123">Netherlands</option>
+<option value="124">New Zealand</option>
+<option value="125">Nicaragua</option>
+<option value="126">Niger</option>
+<option value="127">Nigeria</option>
+<option value="128">North Korea</option>
+<option value="129">North Macedonia</option>
+<option value="130">Norway</option>
+<option value="131">Oman</option>
+<option value="132">Pakistan</option>
+<option value="133">Palau</option>
+<option value="134">Palestine State</option>
+<option value="135">Panama</option>
+<option value="136">Papua New Guinea</option>
+<option value="137">Paraguay</option>
+<option value="138">Peru</option>
+<option value="139">Philippines</option>
+<option value="140">Poland</option>
+<option value="141">Portugal</option>
+<option value="142">Qatar</option>
+<option value="143">Romania</option>
+<option value="144">Russia</option>
+<option value="145">Rwanda</option>
+<option value="146">Saint Kitts and Nevis</option>
+<option value="147">Saint Lucia</option>
+<option value="148">Saint Vincent and the Grenadines</option>
+<option value="149">Samoa</option>
+<option value="150">San Marino</option>
+<option value="151">Sao Tome and Principe</option>
+<option value="152">Saudi Arabia</option>
+<option value="153">Senegal</option>
+<option value="154">Serbia</option>
+<option value="155">Seychelles</option>
+<option value="156">Sierra Leone</option>
+<option value="157">Singapore</option>
+<option value="158">Slovakia</option>
+<option value="159">Slovenia</option>
+<option value="160">Solomon Islands</option>
+<option value="161">Somalia</option>
+<option value="162">South Africa</option>
+<option value="163">South Korea</option>
+<option value="164">South Sudan</option>
+<option value="165">Spain</option>
+<option value="166">Sri Lanka</option>
+<option value="167">Sudan</option>
+<option value="168">Suriname</option>
+<option value="169">Sweden</option>
+<option value="170">Switzerland</option>
+<option value="171">Syria</option>
+<option value="172">Taiwan</option>
+<option value="173">Tajikistan</option>
+<option value="174">Tanzania</option>
+<option value="175">Thailand</option>
+<option value="176">Timor-Leste</option>
+<option value="177">Togo</option>
+<option value="178">Tonga</option>
+<option value="179">Trinidad and Tobago</option>
+<option value="180">Tunisia</option>
+<option value="181">Turkey</option>
+<option value="182">Turkmenistan</option>
+<option value="183">Tuvalu</option>
+<option value="184">Uganda</option>
+<option value="185">Ukraine</option>
+<option value="186">United Arab Emirates</option>
+<option value="187">United Kingdom</option>
+<option value="188">United States of America</option>
+<option value="189">Uruguay</option>
+<option value="190">Uzbekistan</option>
+<option value="191">Vanuatu</option>
+<option value="192">Venezuela</option>
+<option value="193">Vietnam</option>
+<option value="194">Yemen</option>
+<option value="195">Zambia</option>
+<option value="196">Zimbabwe</option>    
+                    </select>
+                  </div>
+
+
+                  <div class="form-group row">
+                    <div class="col-md-6">
+                      <label for="c_diff_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_fname" name="c_diff_fname">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="c_diff_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_lname" name="c_diff_lname">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-12">
+                      <label for="c_diff_companyname" class="text-black">Company Name </label>
+                      <input type="text" class="form-control" id="c_diff_companyname" name="c_diff_companyname">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-12">
+                      <label for="c_diff_address" class="text-black">Address <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_address" name="c_diff_address" placeholder="Street address">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-6">
+                      <label for="c_diff_state_country" class="text-black">State / Country <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_state_country" name="c_diff_state_country">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="c_diff_postal_zip" class="text-black">Postal / Zip <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_postal_zip" name="c_diff_postal_zip">
+                    </div>
+                  </div>
+
+                  <div class="form-group row mb-5">
+                    <div class="col-md-6">
+                      <label for="c_diff_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_email_address" name="c_diff_email_address">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="c_diff_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_phone" name="c_diff_phone" placeholder="Phone Number">
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="c_order_notes" class="text-black">Order Notes</label>
+              <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="Write your notes here..."></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <h2 class="h3 mb-3 text-black">Coupon Code</h2>
+              <div class="p-3 p-lg-5 border">
+
+                <label for="c_code" class="text-black mb-3">Enter your coupon code if you have one</label>
+                <div class="input-group w-75">
+                  <input type="text" class="form-control" id="c_code" placeholder="Coupon Code" aria-label="Coupon Code" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-black btn-sm" type="button" id="button-addon2">Apply</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <h2 class="h3 mb-3 text-black">Your Order</h2>
+              <div class="p-3 p-lg-5 border">
+                <table class="table site-block-order-table mb-5">
+                  <thead>
+                    <th>Product</th>
+                    <th>Total</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Top Up T-Shirt <strong class="mx-2">x</strong> 0</td>
+                      <td>£00.00</td>
+                    </tr>
+                    <tr>
+                      <td>Polo Shirt <strong class="mx-2">x</strong>   0</td>
+                      <td>£00.00</td>
+                    </tr>
+                    <tr>
+                      <td class="text-black font-weight-bold"><strong>Cart Subtotal</strong></td>
+                      <td class="text-black">£00.00</td>
+                    </tr>
+                    <tr>
+                      <td class="text-black font-weight-bold"><strong>Order Total</strong></td>
+                      <td class="text-black font-weight-bold"><strong>£00.00</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="border p-3 mb-3">
+                  <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Direct Bank Transfer</a></h3>
+
+                  <div class="collapse" id="collapsebank">
+                    <div class="py-2">
+                      <p class="mb-0">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 mb-3">
+                  <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsecheque" role="button" aria-expanded="false" aria-controls="collapsecheque">Cheque Payment</a></h3>
+
+                  <div class="collapse" id="collapsecheque">
+                    <div class="py-2">
+                      <p class="mb-0">Secure your payment through cheque by issuing it in favor of our organization. Ensure that you provide your Order ID as the reference on the cheque. Please note that your order will be processed and shipped only after the cheque funds have successfully cleared in our account.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 mb-5">
+                  <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsepaypal" role="button" aria-expanded="false" aria-controls="collapsepaypal">Paypal</a></h3>
+
+                  <div class="collapse" id="collapsepaypal">
+                    <div class="py-2">
+                      <p class="mb-0">Make your payment securely through PayPal. Please use your Order ID as the payment reference. Your order will be processed and shipped once the PayPal transaction is confirmed.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">Place Order</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- </form> -->
+    </div>
+  </div>
+
+  <div class="untree_co-section bg-light">
+    <div class="container">
+      <div class="row align-items-stretch">
+        <div class="col-12 col-sm-6 col-md-4 mb-3 mb-md-0">
+          <div class="feature h-100">
+            <div class="icon mb-4">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-truck" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5v7h-1v-7a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5v1A1.5 1.5 0 0 1 0 10.5v-7zM4.5 11h6v1h-6v-1z"/>
+                <path fill-rule="evenodd" d="M11 5h2.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5h-1v-1h1a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4.5h-1V5zm-8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                <path fill-rule="evenodd" d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+              </svg>
+            </div>
+            <h3>Worldwide Delivery</h3>
+            <p>Experience the world of hassle-free global shipping with us. Whether it's an important business document or a cherished gift, we're here to make sure it gets to its destination, anywhere in the world.Start shipping today and let us take care of the rest.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-3 mb-md-0">
+          <div class="feature h-100">
+            <div class="icon mb-4">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shield-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M5.443 1.991a60.17 60.17 0 0 0-2.725.802.454.454 0 0 0-.315.366C1.87 7.056 3.1 9.9 4.567 11.773c.736.94 1.533 1.636 2.197 2.093.333.228.626.394.857.5.116.053.21.089.282.11A.73.73 0 0 0 8 14.5c.007-.001.038-.005.097-.023.072-.022.166-.058.282-.111.23-.106.525-.272.857-.5a10.197 10.197 0 0 0 2.197-2.093C12.9 9.9 14.13 7.056 13.597 3.159a.454.454 0 0 0-.315-.366c-.626-.2-1.682-.526-2.725-.802C9.491 1.71 8.51 1.5 8 1.5c-.51 0-1.49.21-2.557.491zm-.256-.966C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 0 1 2.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 0 1-2.418 2.3 6.942 6.942 0 0 1-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 0 1-1.007-.586 11.192 11.192 0 0 1-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 0 1 2.415 1.84a61.11 61.11 0 0 1 2.772-.815z"/>
+                <path d="M9.5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                <path d="M7.411 8.034a.5.5 0 0 1 .493-.417h.156a.5.5 0 0 1 .492.414l.347 2a.5.5 0 0 1-.493.585h-.835a.5.5 0 0 1-.493-.582l.333-2z"/>
+              </svg>
+            </div>
+            <h3>Secure Payments</h3>
+            <p>Experience global shipping without compromise, underpinned by the pinnacle of security. Whether it's a mission-critical business document or a token of affection, we prioritize the trust and security of your shipments and payments from inception to delivery.Begin your shipping journey today with unwavering confidence, knowing that your payments are fortified. Your world, delivered with paramount security.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 mb-3 mb-md-0">
+          <div class="feature h-100">
+            <div class="icon mb-4">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 0 0-7.103-3.16.5.5 0 1 1-.454-.892A6 6 0 1 1 2.545 5.5a.5.5 0 1 1 .91.417 5 5 0 1 0 9.375.789z"/>
+                <path fill-rule="evenodd" d="M7.854.146a.5.5 0 0 0-.708 0l-2.5 2.5a.5.5 0 0 0 0 .708l2.5 2.5a.5.5 0 1 0 .708-.708L5.707 3 7.854.854a.5.5 0 0 0 0-.708z"/>
+              </svg>
+            </div>
+            <h3>Simple Returns</h3>
+            <p>Our streamlined return process ensures that sending items back is as easy as receiving them, making your life simpler.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer">
+
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5">
+          <div class="widget mb-4">
+            <h3 class="mb-2">About Modentive Store</h3>
+            <p>At Modentive, we insist on uncompromising quality, authenticity, and offer luxury fashion for all occasions. Elevate your style quotient and express your individuality with our exclusive collection. Indulge in the world of Modentive, where luxury is not just a purchase; it's an experience. Explore today and redefine your wardrobe with us.</p>
+          </div>
+          <div class="widget">
+            <h3>Join our mailing list and receive exclusives</h3>
+            <form action="#" class="subscribe">
+              <div class="d-flex">
+                <input type="email" class="form-control" placeholder="Email address">
+                <input type="submit" class="btn btn-black" value="Subscribe">
+              </div>
+            </form>
+
+            
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="widget">
+            <h3>Help</h3> 
+            <ul class="list-unstyled">
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Account</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">FAQ</a></li>   
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="widget">
+            <h3>About</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">FAQ</a></li>   
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="widget">
+            <h3>Shop</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Gift Cards</a></li>
+              <li><a href="#">Student Discount</a></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <ul class="list-unstyled social">
+            <li><a href="#"><span class="icon-facebook"></span></a></li>
+            <li><a href="#"><span class="icon-instagram"></span></a></li>
+            <li><a href="#"><span class="icon-linkedin"></span></a></li>
+            <li><a href="#"><span class="icon-twitter"></span></a></li>
+          </ul>
+        </div>
+        <div class="col-12 text-center copyright">
+          <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://modentive.co">Modentive.co</a> <!-- License information: https://modentive.co/license/ -->
+          </p>
+
+        </div>
+      </div>
+    </div> <!-- /.container -->
+  </div> <!-- /.site-footer -->
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/custom.js"></script>
+  
+</body>
+
+</html>
